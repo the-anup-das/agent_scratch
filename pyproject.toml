@@ -1,0 +1,17 @@
+[project]
+name = "agent-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.11.0.post1",
+    "json-repair>=0.48.0",
+    "openai>=1.97.1",
+    "requests>=2.32.4",
+    "streamlit>=1.47.1",
+    "taipy>=4.1.0",
+    "termcolor>=3.1.0",
+]
